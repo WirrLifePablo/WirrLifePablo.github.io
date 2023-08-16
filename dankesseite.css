@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #d9d9d9;
+    line-height: 1.6;
+    padding: 50px;
+}
+
+.thank-you-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.important-note {
+    color: #9763fc;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #9763fc;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #7f52d5;
+}
+
+.closing-note, .signature {
+    text-align: center;
+}
+
+.signature {
+    margin-top: 40px;
+    font-style: italic;
+}
